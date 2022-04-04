@@ -1,0 +1,20 @@
+//Custom.scss
+$body-bg: #B8D3D1;
+$primary: #1e6091;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+body {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    font-family: 'Roboto', sans-serif;
+    h1 {
+        font-family: 'Rochester', cursive;
+       // font-family: 'Vibur', cursive;
+    };
+    background-color: $body-bg;
+    .btn-primary {
+        background-color: $primary;
+    }
+
+}
