@@ -1,6 +1,6 @@
 //Custom.scss
 $body-bg: #B8D3D1;
-$primary: #1e6091;
+$primary: #CF9B38;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -11,6 +11,7 @@ body {
     h1 {
         font-family: 'Rochester', cursive;
        //font-family: 'Vibur', cursive;
+       color: $primary
     };
     background-color: $body-bg;
  

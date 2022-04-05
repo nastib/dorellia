@@ -2,7 +2,7 @@
 <template>
   <div class="row">
     <div class="col-12 p-3">
-      <h1>Welcome to Orellia!</h1>
+      <PageTitle :pageTitle="pageTitle" />
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsa maxime nihil id praesentium repudiandae ad hic vero nulla
         autem.
@@ -15,9 +15,14 @@
 </template>
 
 <script>
+import { title } from 'process';
+
 export default {
   layout: 'homepage',
   name: 'starters',
+  data() {
+    return { pageTitle: 'Starters' };
+  },
 };
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <div class="top-menu">
+  <div class="top-menu text-center">
     <nuxt-link to="/">Starters</nuxt-link>
     <nuxt-link to="/lunch">Lunch</nuxt-link>
     <nuxt-link to="/desserts">Desserts</nuxt-link>
@@ -11,4 +11,8 @@
 export default {};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+.top-menu {
+  margin-top: 2rem;
+}
+</style>
