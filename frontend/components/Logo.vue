@@ -4,8 +4,12 @@
   </div>
 </template>
 
-<style>
+<style lang="scss">
 .logo {
-  height: 180px;
+  margin-top: 57px;
+  img {
+    width: 100%;
+    max-height: 75px;
+  }
 }
 </style>
