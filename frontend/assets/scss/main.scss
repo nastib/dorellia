@@ -1,6 +1,8 @@
 //Custom.scss
 $body-bg: #B8D3D1;
 $primary: #CF9B38;
+$title: mediumslateblue;
+$menu: #202020;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -11,9 +13,12 @@ body {
     h1 {
         font-family: 'Rochester', cursive;
        //font-family: 'Vibur', cursive;
-       color: $primary
+      // color: $primary
     };
     background-color: $body-bg;
+    .container {
+        padding-top: 56px;
+    }
  
 
 }
