@@ -14,7 +14,7 @@ export default {
 .page-title {
   h1 {
     font-size: 4rem;
-    color: mediumslateblue;
+    color: $title;
   }
 }
 </style>
