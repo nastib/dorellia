@@ -3,8 +3,11 @@
     <div class="col-12 p-3">
       <PageTitle :pageTitle="pageTitle" />
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae odit iure vero nulla, totam debitis accusamus cupiditate, aliquam,
-        qui necessitatibus magni. Odit deleniti reprehenderit ab, sequi dignissimos doloremque recusandae tempore.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci ipsa maxime nihil id praesentium repudiandae ad hic vero nulla
+        autem.
+      </p>
+      <p>
+        <button type="button" class="btn btn-primary">Primary</button>
       </p>
     </div>
   </div>

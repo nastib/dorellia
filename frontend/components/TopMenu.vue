@@ -18,7 +18,7 @@ export default {};
 
 <style lang="scss">
 .top-menu {
-  margin: 2.5rem auto;
+  margin-top: 2.5rem;
   .goldenline {
     border-bottom: 3px solid $primary;
     &::after {
@@ -33,6 +33,7 @@ export default {};
     }
   }
   a {
+    display: block;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.5rem;

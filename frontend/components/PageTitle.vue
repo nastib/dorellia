@@ -1,6 +1,10 @@
 <template>
   <div class="page-title">
-    <h1>{{ pageTitle }}</h1>
+    <div class="d-flex flex-row justify-content-center align-items-center">
+      <div class="left-ornament"></div>
+      <h1>{{ pageTitle }}</h1>
+      <div class="rigth-ornament"></div>
+    </div>
   </div>
 </template>
 
@@ -10,11 +14,14 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .page-title {
   h1 {
-    font-size: 4rem;
+    width: 60%;
+    text-align: center;
+    font-size: 3.222rem;
     color: $title;
   }
+  @import '../assets/scss/ornament.scss';
 }
 </style>

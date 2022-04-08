@@ -1,12 +1,12 @@
 <!-- Please remove this file from your project -->
 <template>
   <div class="container">
-    <div class="p-3">
-      <Logo />
-      <TopMenu />
+    <Logo />
+    <TopMenu />
+    <div class="main">
       <Nuxt />
-      <Footer />
     </div>
+    <Footer />
   </div>
 </template>
 
@@ -16,4 +16,11 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+.container {
+  .main {
+    min-height: 69vh;
+    width: 100%;
+  }
+}
+</style>
